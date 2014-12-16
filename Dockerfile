@@ -1,5 +1,6 @@
 # Almost line-by-line copy from http://docs.docker.io/examples/running_ssh_service/ .
 FROM debian:latest
+MAINTAINER Sam Morrison <sam@cnstechgroup.com>
 RUN apt-get update && apt-get install -y openssh-server
 RUN mkdir /var/run/sshd
 RUN echo 'root:root' | chpasswd
