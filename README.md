@@ -5,7 +5,7 @@ This is a simple template for building out a Debian container based off of the "
 ## Build the container using:
 
 ```
-sudo docker build -t="smorrison/stockdeb:v1" .
+sudo docker build -t="scmorrison/stockdeb:v1" .
 ```
 
 ## Run the image in a new container:
